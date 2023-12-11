@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_span_count"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@+id/menuChoose"
+        android:title="Multiple Select"
+        app:showAsAction="never"/>
+    <item android:id="@+id/album_item_slideshow"
+        android:title="Slide show"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_add_image"
+        android:title="Add image"
+        app:showAsAction="never"/>
+    <item android:id="@+id/change_thumb"
+        android:title="Change thumbnail"
+        app:showAsAction="never"/>
+</menu>

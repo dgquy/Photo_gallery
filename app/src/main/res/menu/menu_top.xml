@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuCamera"
+        android:icon="@drawable/ic_toolbar_camera"
+        android:iconTint="?attr/colorOnBackground"
+        android:title="@string/camera"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuSearch"
+        android:icon="@drawable/ic_search"
+        android:iconTint="?attr/colorOnBackground"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/menuChoose"
+        android:title="@string/multiSelect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuSearch_Advanced"
+        android:title="@string/advance_search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuSettings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/duplicateImages"
+        android:title="@string/duplicate_images"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_list"
+        android:title="Sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_date"
+                android:title="Sort by date" />
+            <item
+                android:id="@+id/sort_month"
+                android:title="Sort by month" />
+        </menu>
+    </item>
+
+</menu>
