@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/chitiet"
+        android:title="Chi tiết"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/scan"
+        android:title="Trích xuất văn bản"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/hide"
+        android:title="Thêm/xóa khỏi Thư mục bảo mật"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/hinhnen"
+        android:title="Đặt làm hình nền"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/hinhcho"
+        android:title="Đặt làm màn hình chờ"
+        app:showAsAction="never"/>
+</menu>

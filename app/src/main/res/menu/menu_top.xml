@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuCamera"
+        android:title="@string/camera"
+        android:icon="@drawable/ic_toolbar_camera"
+        app:showAsAction="always"
+        android:iconTint="?attr/colorOnBackground"/>
+
+
+    <item android:id="@+id/menuSearch"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:iconTint="?attr/colorOnBackground"/>
+
+    <item android:id="@+id/menuSettings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sort_list"
+        android:title="Sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_date"
+                android:title="Sort by date" />
+            <item
+                android:id="@+id/sort_month"
+                android:title="Sort by month" />
+        </menu>
+    </item>
+    <item android:id="@+id/QRscan"
+        android:title="@string/QRscan"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mauchude">
+        <item>Nâu</item>
+        <item>Tím</item>
+        <item>Hồng</item>
+        <item>Lục</item>
+        <item>Cam</item>
+        <item>Đỏ</item>
+        <item>Lam</item>
+        <item>Vàng</item>
+    </string-array>
+
+    <string-array name="speed_options">
+        <item>Bình Thường</item>
+        <item>Chậm</item>
+        <item>Nhanh</item>
+    </string-array>
+</resources>
